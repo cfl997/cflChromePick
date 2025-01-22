@@ -7,7 +7,7 @@ PT自动签到
 
 
 功能：
-保持登录状态
+保持浏览器登录状态，打开默认用户文件
 模拟点击签到（点击按钮自行设置：根据href名称）
 log日志
 首次配置文件，后续不用再填写
@@ -35,13 +35,20 @@ chrome://settings/help
 下载对应ChromeDriver.exe
 https://googlechromelabs.github.io/chrome-for-testing/
 
+查看版本
+.\chromedriver.exe -version
 
 默认配置： 自行更改
 [SETTINGS]
 url1 = https://carpt.net/index.php
+
 url2 = https://1ptba.com/index.php
+
 href = attendance.php
+
 driver_path = E:\A\program\vscode\python\ChromePick\chromedriver.exe
+
 user_data_dir = E:\A\program\vscode\python\ChromePick\UserData
+
 time = 19:21
 
